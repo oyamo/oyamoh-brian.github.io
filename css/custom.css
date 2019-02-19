@@ -1,0 +1,104 @@
+@keyframes animate{
+	form{background: gradient(to right, red, yellow);}
+	to{background: #fff;}
+}
+body{
+animation: animate;
+animation-duration:3s;
+}
+#loading{
+	background: linear-gradient(to right,red yellow);
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	position: fixed;
+	top:0px;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 550px;
+}
+.carousel-caption h3{
+	color: aqua;
+}
+.resize{
+	padding: 10px;
+}
+.resize img{
+	height:150px;
+	width:150px;
+	padding: 10px 2px 10px 2px;
+	text-align: center;
+}
+.resize h5{
+	font-size: 30px;
+	color:aqua;
+
+}
+.resize p{
+	color: white;
+}
+
+.showcase{
+	color:white;
+	border-top: 5px aqua solid;
+}
+.showcase h5{
+	color: aqua;
+}
+.border-right{
+	border-right:aqua solid 2px;
+}
+footer{
+	background-image:url("../images/15.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-top: 2px aqua solid;
+}
+.dark{
+	margin:20px;
+	background-color: #000;
+	opacity: .8;
+}
+#quote h3{
+	color: orange;
+	line-height: 1.2em;
+}
+#quote h5{
+	color:aqua;
+	letter-spacing: 5px;
+}
+#contacts{
+	padding-bottom: 70px;
+	background-color: #000;
+	opacity: .8;
+	margin: 40px 20px 20px 20px;
+	padding-left: 20px;
+	padding-top:20px;
+}
+#contacts h3{
+	color:aqua;
+}
+#contacts .fa{
+	color:#fff;
+	margin-right: 5px;
+}
+#contacts:hover{
+	opacity:1;
+	
+	border-bottom: green solid  5px;
+    border-left: #fff solid  5px;
+    border-top: pink solid 5px;
+	transition: .6s;
+
+}
+.dark:hover{
+opacity:1;
+border-bottom: green solid  5px;
+border-left: #fff solid  5px;
+border-top: pink solid  5px;
+	transition: .6s;
+}
